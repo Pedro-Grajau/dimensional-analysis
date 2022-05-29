@@ -1,5 +1,3 @@
-**Notice:** please open this README.md file in Jupyter, or open the [README.ipynb](README.ipynb) file on github to see a correct formatting of the LaTeX math formulas!
-
 # Dimensional Analysis
 Determine the dimensionless parameters for a given set of physical variables in accordance with the Buckingham $\Pi$ theorem.
 
