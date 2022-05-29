@@ -1,0 +1,79 @@
+Quantity,L,M,T,I,Theta,N,J,SI unit,in SI base units,Category,Comment,Symbol
+Comprimento,1,0,0,0,0,0,0,m,m,Valor Base,lowercase L,l
+Massa,0,1,0,0,0,0,0,kg,kg,Valor Base,-,m
+Tempo,0,0,1,0,0,0,0,s,s,Valor Base,-,t
+Corrente elétrica,0,0,0,1,0,0,0,A,A,Valor Base,-,I
+Temperatura,0,0,0,0,1,0,0,K,K,Valor Base,-,T
+Quantidade de substância,0,0,0,0,0,1,0,mol,mol,Valor Base,-,n
+Intensidade Luminosa,0,0,0,0,0,0,1,cd,cd,Valor Base,uppercase i,I_v
+Massa Molar,0,1,0,0,0,-1,0,kg  / mol,kg  / mol,Molecular,-,M_mol
+Angulo,0,0,0,0,0,0,0,1,1,Geometria,-,alpha
+Distancia,1,0,0,0,0,0,0,m,m,Geometria,-,x
+Comprimento Carac. ,1,0,0,0,0,0,0,m,m,Geometria,-,L
+Diâmetro,1,0,0,0,0,0,0,m,m,Geometria,-,D
+Raio,1,0,0,0,0,0,0,m,m,Geometria,-,R
+Altura,1,0,0,0,0,0,0,m,m,Geometria,-,H
+Variação de área,2,0,-1,0,0,0,0,m^2 / s,m^2 / s,Cinemática,-,A_dot
+Area,2,0,0,0,0,0,0,m^2,m^2,Geometria,-,A
+Volume,3,0,0,0,0,0,0,m^3,m^3,Geometria,-,V
+Tempo,0,0,1,0,0,0,0,s,s,Cinemática,-,tau
+Comprimento onda,1,0,0,0,0,0,0,m,m,Cinemática,-,lambda
+Velocidade do som,1,0,-1,0,0,0,0,m / s,m / s,Cinemática,-,a_s
+Velocidade da luz,1,0,-1,0,0,0,0,m / s,m / s,Cinemática,-,c
+Velocidade,1,0,-1,0,0,0,0,m / s,m / s,Cinemática,-,v
+Velocidade inicial,1,0,-1,0,0,0,0,m / s,m / s,Cinemática,-,v_0
+Velocidade do fluxo,1,0,-1,0,0,0,0,m / s,m / s,Cinemática,-,u
+Aceleração,1,0,-2,0,0,0,0,m / s^2,m / s^2,Cinemática,-,a
+Aceleração gravitacional,1,0,-2,0,0,0,0,m / s^2,m / s^2,Cinemática,-,g
+Frequência,0,0,-1,0,0,0,0,Hz,1 / s,Cinemática,-,f
+Velocidade de rotação,0,0,-1,0,0,0,0,1 / s,1 / s,Cinemática,-,n_rot
+Velocidade angular,0,0,-1,0,0,0,0,1 / s,1 / s,Cinemática,-,omega
+Viscosidade dinâmica,-1,1,-1,0,0,0,0,Pa s,kg / (m s),Mecânico,-,\eta
+Viscosidade cinemática,2,0,-1,0,0,0,0,m^2 / s,m^2 / s,Mecânico,-,nu
+Força,1,1,-2,0,0,0,0,N,kg m / s^2,Mecânico,-,F
+Força de arrasto/resistência,1,1,-2,0,0,0,0,N,kg m / s^2,Mecânico,-,F_D
+Potência,2,1,-3,0,0,0,0,W,kg m^2 / s^3,Mecânico,-,P
+Densidade,-3,1,0,0,0,0,0,kg / m^3,kg / m^3,Mecânico,-,\rho
+Densidade Inicial,-3,1,0,0,0,0,0,kg / m^3,kg / m^3,Mecânico,-,rho_0
+Volume específico,3,-1,0,0,0,0,0,m^3 / kg,m^3 / kg,Mecânico,-,v_s
+Pressão,-1,1,-2,0,0,0,0,Pa,kg / (m s^2),Mecânico,-,p
+Pressão inicial,-1,1,-2,0,0,0,0,Pa,kg / (m s^2),Mecânico,-,p_0
+Variação de pressão,-1,1,-2,0,0,0,0,Pa,kg / (m s^2),Mecânico,-,p_diff
+Energia,2,1,-2,0,0,0,0,J,kg m^2 / s^2,Mecânico,-,E
+Trabalho,2,1,-2,0,0,0,0,J,kg m^2 / s^2,Mecânico,-,W
+Momento,1,1,-1,0,0,0,0,N s,kg m / s,Mecânico,-,p_mom
+Momento angular,2,1,-1,0,0,0,0,J s,kg m^2 / s,Mecânico,-,L_mom
+Momento de inércia,2,1,0,0,0,0,0,kg m^2,kg m^2,Mecânico,uppercase i,I_mom
+Estresse,-1,1,-2,0,0,0,0,Pa,kg / (m s^2),Mecânico,-,sigma_s
+Módulo de Young,-1,1,-2,0,0,0,0,Pa,kg / (m s^2),Mecânico,-,E_Y
+Módulo de cisalhamento,-1,1,-2,0,0,0,0,Pa,kg / (m s^2),Mecânico,-,G_shear
+Momento de inércia de área,4,0,0,0,0,0,0,m^4,m^4,Mecânico,-,J
+Torque,2,1,-2,0,0,0,0,N m,kg m^2 / s^2,Mecânico,-,M
+Tensão superficial,0,1,-2,0,0,0,0,N / m,kg / s^2,Mecânico,-,sigma
+Vazão Mássica,0,1,-1,0,0,0,0,kg / s,kg / s,Mecânico,-,m_dot
+Fluxo Volumétrico,3,0,-1,0,0,0,0,m^3 / s,m^3 / s,Mecânico,-,V_dot
+Condutividade térmica,1,1,-3,0,-1,0,0,W / (m K),kg m / (s^3 K),Termodinâmica,-,k_th
+Capacidade térmica,2,1,-2,0,-1,0,0,J / K,kg m^2 / (s^2 K),Termodinâmica,-,C
+Calor específico (pressão const.),2,0,-2,0,-1,0,0,J / (kg K),m^2 / (s^2 K),Termodinâmica,-,c_p
+Calor específico (volume const.),2,0,-2,0,-1,0,0,J / (kg K),m^2 / (s^2 K),Termodinâmica,-,c_v
+Calor,2,1,-2,0,0,0,0,J,kg m^2 / s^2,Termodinâmica,-,Q
+Taxa de fluxo de calor,2,1,-3,0,0,0,0,W,kg m^2 / s^3,Termodinâmica,-,Q_dot
+Fluxo de calor,0,1,-3,0,0,0,0,W / m^2,kg  / s^3,Termodinâmica,-,q_dot
+Energia interna,2,1,-2,0,0,0,0,J,kg m^2 / s^2,Termodinâmica,-,U
+Coeficiente de transferência térmica,0,1,-3,0,-1,0,0,W / (m^2 K),kg  / (s^3 K),Termodinâmica,-,h
+Emissão radiante,-1,1,-3,0,0,0,0,W / m^3,kg / (m s^3),Termodinâmica,-,M_lambda
+Constante de Boltzmann,2,1,-2,0,-1,0,0,J / K,kg m^2 / (s^2 K),Termodinâmica,-,k_B
+Constante de Planck,2,1,-1,0,0,0,0,J s,kg m^2 / s,Termodinâmica,-,h_P
+Variação de temperatura,0,0,0,0,1,0,0,K,K,Termodinâmica,-,T_diff
+Temperatura do ar,0,0,0,0,1,0,0,K,K,Termodinâmica,-,T_air
+Difusividade térmica,2,0,-1,0,0,0,0,m^2 / s,m^2 / s,Termodinâmica,-,a_th
+Carga elétrica,0,0,1,1,0,0,0,C,A s,Eletrodinâmica,-,q_el
+Densidade do fluxo magnético (B-field),0,1,-2,-1,0,0,0,T (Tesla),kg / (s^2 A),Eletrodinâmica,-,B
+Tensão elétrica,2,1,-3,-1,0,0,0,V,kg m^2 / (s^3 A),Eletrodinâmica,-,U_el
+Resistência elétrica,2,1,-3,-2,0,0,0,Ohm,kg m^2 / (s^3 A^2),Eletrodinâmica,-,R_el
+Condutância elétrica,-2,-1,3,2,0,0,0,S (Siemens),s^3 A^2 / (kg m^2),Eletrodinâmica,-,G_el
+Campo elétrico,1,1,-3,-1,0,0,0,V / m,kg m / (s^3 A),Eletrodinâmica,-,E_el
+Capacitância,-2,-1,4,2,0,0,0,F (Farad),s^4 A^2 / (kg m^2),Eletrodinâmica,-,C_el
+Indutância,2,1,-2,-2,0,0,0,H (Henry),kg m^2 / (s^2 A^2),Eletrodinâmica,-,L_el
+Permeabilidade (eletromagnetismo),1,1,-2,-2,0,0,0,H / m,kg m / (s^2 A^2),Eletrodinâmica,-,mu
+Constante gravitacional,3,-1,-2,0,0,0,0,m^3 / (kg s^2),m^3 / (kg s^2),Constante,-,G
